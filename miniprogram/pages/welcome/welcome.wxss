@@ -1,0 +1,6 @@
+/* miniprogram/pages/welcome/welcome.wxss */
+.container image{
+   height: 100vh;
+   width:100vw;
+   object-fit: contain;
+}

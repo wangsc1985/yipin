@@ -1,0 +1,4 @@
+<!--miniprogram/pages/welcome/welcome.wxml-->
+<view class="container">
+   <image src="./haha.png" model="aspectFit"></image>
+</view>
