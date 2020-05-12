@@ -1,0 +1,55 @@
+/* miniprogram/pages/runlog/runlog.wxss */
+
+.runlog-item {
+   width: 100%;
+   padding: 5px 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+.runlog-item:nth-child(odd){
+   background: rgb(212, 212, 212);
+}
+.runlog-item:nth-child(even){
+   background: rgb(255, 106, 106);
+}
+
+.runlog-item .name {
+   margin-right: 10px;
+   font-size: 16px;
+}
+
+.runlog-item .time {
+   flex-grow: 1;
+   margin-right: 10px;
+   font-size: 12px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+
+.remove-some{
+   margin-top: 5px;
+   font-size: 12px;
+   margin-left: 10px;
+   display: block;
+}
+
+.remove-some date-input{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10px;
+   font-size: 16px;
+}
+.remove-some runlog-btn{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10px;
+   font-size: 16px;
+}
+.remove-some chats-btn{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10px;
+   font-size: 16px;
+}

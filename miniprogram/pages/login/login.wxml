@@ -1,0 +1,8 @@
+<view class="container">
+   <view class="empty"></view>
+   <view class="login">
+      <input id="code" type="number" password="true" placeholder="邀请码" value="{{code}}" focus="{{isAutoFocus}}" 
+      maxlength="4" bindinput="login" bindfocus="onFocus"></input>
+      <button bindtap="getOpenId" hidden="true">测试</button>
+   </view>
+</view>

@@ -1,4 +1,5 @@
 //app.js
+
 App({
    onLaunch: function() {
 
@@ -15,6 +16,15 @@ App({
          })
       }
 
-      this.globalData = {}
+      this.globalData = {
+         // tmpId: "0dp36zT0PH_Kho6I3lUkDiOtqIT5nlNRhMeFmIABhkA", // 备忘提醒
+         tmpId: "xkcU_LQaknhZxIAseCNP_kkMqKyoK_FLGPP1MAebJRw", // 工单到达提醒
+         name:'',
+         avatar:'',
+         sex:'',
+         _openid:'',
+         _id:'',
+         loginTime:0,
+      }
    }
 })

@@ -1,0 +1,33 @@
+/* .empty{
+   background-color:burlywood;
+   margin-bottom: 0px;
+} */
+
+.empty {
+   text-align: center;
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight: bold;
+   min-height: calc(50vh - 85px);
+}
+
+.login {
+   height: 60px;
+   padding: 20px;
+   background-color: goldenrod;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   border-radius: 5px;
+}
+
+.login input {
+   display: block;
+   background-color: white;
+   height: 30px;
+   margin-top: 10px;
+   padding: 5px 10px;
+   border-radius: 3px;
+   text-align: center;
+}

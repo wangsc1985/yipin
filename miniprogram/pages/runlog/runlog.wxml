@@ -1,0 +1,18 @@
+<!--miniprogram/pages/runlog/runlog.wxml-->
+<view class="container">
+
+   <image src="loading.gif" model='aspectFit' style="width:80px;height:44px" hidden="{{isLoadingHidden}}"></image>
+   <view class="online-user" wx:for="{{onlineUsers}}">
+      <view class="name">{{item.onlineUsers[0].name}}</view>
+   </view>
+
+   <view class="runlog-item" wx:for="{{runlogs}}" wx:for-item="runlog">
+      <view class="name">{{runlog.item}}</view>
+      <view class="time">{{runlog.time}}</view>
+   </view>
+   <view class="remove-some" hidden="true">
+      <input class="date-input" placeholder="格式：1985-12-27" />
+      <button class="runlog-btn">日志</button>
+      <button class="chats-btn">文件</button>
+   </view>
+</view>

@@ -1,4 +1,23 @@
 <!--miniprogram/pages/welcome/welcome.wxml-->
+
 <view class="container">
-   <image src="./haha.png" model="aspectFit"></image>
+   <!-- <view class="swiper">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <swiper-item class="item" wx:for="{{background}}" wx:key="*this" >
+               <image model="aspectFit" src="{{item}}"></image>
+            </swiper-item>
+      </swiper>
+   </view> -->
+
+   <!-- <view class="empty"></view> -->
+   <view class="footer">
+      <button bindtap="requestMsg">订阅消息</button>
+      <button bindtap="sendMsg">发送消息</button>
+      <button bindtap="scan">扫描</button>
+      <button bindtap="modalDialog">Modal</button>
+      <button bindtap="itemDialog">ActionSheet</button>
+      <button bindtap="photoDialog">相册</button>
+      <button bindtap="addUser">add user</button>
+      <button bindtap="leagueTableQuery">联表查询</button>
+   </view>
 </view>
