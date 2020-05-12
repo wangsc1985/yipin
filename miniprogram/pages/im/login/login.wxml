@@ -1,7 +1,0 @@
-<view class="container">
-   <view class="empty"></view>
-   <view class="login">
-      <input id="code" type="number" password="true" placeholder="请输入访问码" value="{{code}}" focus="{{isAutoFocus}}" 
-      maxlength="4" bindinput="login" bindfocus="onFocus" bindblur="onBlur" disabled="{{isDisabled}}"></input>
-   </view>
-</view>
